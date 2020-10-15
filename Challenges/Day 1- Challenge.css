@@ -1,0 +1,30 @@
+h1{
+    color: lightgreen;
+    text-align: center;
+}
+
+h3{ 
+    color: blue;
+    font-weight: 1px;
+}
+
+p{
+    color: red;
+}
+
+.truthOne, .lieOne, .truthTwo{
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: lightgrey;
+    width: 33%;
+    display: inline-block;
+}
+
+#truthorlie{
+    border: 3px solid black;
+    border-radius: 1em;
+    background-color: grey;
+    padding: .25em;
+    text-align: center;
+
+}
