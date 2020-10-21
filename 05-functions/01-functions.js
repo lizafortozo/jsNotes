@@ -1,25 +1,25 @@
-//* DECLARATIONS
+//* DECLARATIONS (one way to write a function)
 function hi() {
-    console.log('HI')
+    console.log('HI') //* declaring function 
 }
- hi();
+ hi(); //* calling function and reusable code
 
- //*EXPRESSIONS
+ //*EXPRESSIONS (one way to write a function)
  let hello= function() {
      console.log ('Hey!')
  }
- 
+console.log(hello);
 hello();
 
 //* FUNCTION EXAMPLES 
 function addIt() {
     console.log(5+10)
 }
- addIt()
+ addIt();
 
  function counting() {
      for (i=1; i<=10; i++){
      console.log(i)
      }
  }
- counting()
+ counting();

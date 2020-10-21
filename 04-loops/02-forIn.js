@@ -24,7 +24,19 @@ for (cat in cats){
  */
 
 let name ="lIzA"
+
+//*Justins Way 
+let capName;
+for(letter in name){
+    if (i==0){
+        capName = name[i].toUpperCase
+    } else {
+        capName += name[i].toLowerCase
+    }
+}
+
+//* MY TRY
 for (letter in name){
-    let letter = name[0].toUpperCase
+    let letter = name[0].toUpperCase() + name.slice(1).toLowerCase()
     console.log(letter)
 }
